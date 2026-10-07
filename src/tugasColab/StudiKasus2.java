@@ -8,9 +8,9 @@ public class StudiKasus2 {
         int jumlahDokumen ;
         int peringkatJuara ;
         int statusPendanaanPKM;
-
+        String nama;
         System.out.print("Nama mahasiswa : ");
-        
+        nama = input.nextLine();
         System.out.print("Jenis kegiatan (BELMAWA/BAKORMA/MANDIRI/PKM/LAINNYA) : ");
         jeniskegiatan = input.next();
         System.out.print("Jumlah dokumen  : ");
